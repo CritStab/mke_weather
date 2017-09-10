@@ -1,23 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import Header from '../header'; 
 
 export default class Main extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your Andrew to open the developer menu.</Text>
-      </View>
+      <Header />
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
